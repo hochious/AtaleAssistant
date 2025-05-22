@@ -1,6 +1,6 @@
 {
-  "build": [
-    "pip install -r requirements.txt"
-  ],
-  "start": "python main.py"
+  "build": {
+    "cmd": "pip install -r requirements.txt"
+  },
+  "start": "python bot.py"
 }
